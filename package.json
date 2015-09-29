@@ -1,0 +1,30 @@
+{
+  "name": "flexbox-less-mixin",
+  "version": "1.0.0",
+  "description": "Flexbox mixin project with less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Hamzaerbay@github.com/Hamzaerbay/flexbox-less-mixin.git"
+  },
+  "keywords": [
+    "flexbox",
+    "mixin",
+    "less",
+    "css"
+  ],
+  "author": "Hamza Erbay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hamzaerbay/flexbox-less-mixin/issues"
+  },
+  "homepage": "https://github.com/Hamzaerbay/flexbox-less-mixin#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-lesslint": "^1.4.0"
+  }
+}
