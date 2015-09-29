@@ -1,2 +1,1 @@
-## Flexbox-less-mixin
-Flexbox mixin with Less
+## Flexbox mixin with Less
