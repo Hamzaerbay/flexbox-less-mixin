@@ -76,6 +76,9 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -ms-flex-align: start;
   -webkit-justify-content: center;
   -moz-justify-content: center;
   -o-justify-content: center;
@@ -118,6 +121,9 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -ms-flex-align: start;
   -webkit-justify-content: flex-end;
   -moz-justify-content: flex-end;
   -o-justify-content: flex-end;
