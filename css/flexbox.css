@@ -49,6 +49,9 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -ms-flex-align: start;
 }
 .fx-lc {
   display: -webkit-box;
