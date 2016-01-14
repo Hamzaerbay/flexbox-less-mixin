@@ -6,7 +6,10 @@
     display: -webkit-flex;
     display: flex;
 }
-
+.mix_fx-align-self(@v){
+  -webkit-align-self: @v;
+  align-self: @v;
+}
 //vertical alignment
 .mix_fx-align-items (@v:flex-start) {
     -webkit-align-items: @v;
@@ -176,4 +179,14 @@
     &--right{
         .mix_fx-justify-content(flex-end);
     }
+}
+
+.fx-is{//item flex-start
+  .mix_fx-align-self(flex-start);
+}
+.fx-ie{//item flex-end
+  .mix_fx-align-self(flex-end);
+}
+.fx-ic{//item center
+  .mix_fx-align-self(center);
 }

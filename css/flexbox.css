@@ -234,3 +234,15 @@
   -o-justify-content: flex-end;
   justify-content: flex-end;
 }
+.fx-is {
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+}
+.fx-ie {
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+}
+.fx-ic {
+  -webkit-align-self: center;
+  align-self: center;
+}
